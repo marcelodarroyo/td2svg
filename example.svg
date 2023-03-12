@@ -1,0 +1,298 @@
+
+<svg width="504" height="168" xmlns="http://www.w3.org/2000/svg">
+<rect id="p" x="4" y="6" width="336" height="36"></rect>
+<rect id="s" x="4" y="42" width="336" height="48"></rect>
+<rect id="k" x="4" y="90" width="336" height="24"></rect>
+<rect class="hw" x="4" y="114" width="336" height="36"></rect>
+<line stroke="black" x1="4" y1="6" x2="8" y2="6"></line>
+<line stroke="black" x1="4" y1="6" x2="4" y2="12"></line>
+<line stroke="black" x1="8" y1="6" x2="16" y2="6"></line>
+<line stroke="black" x1="16" y1="6" x2="24" y2="6"></line>
+<line stroke="black" x1="24" y1="6" x2="32" y2="6"></line>
+<line stroke="black" x1="32" y1="6" x2="40" y2="6"></line>
+<line stroke="black" x1="40" y1="6" x2="48" y2="6"></line>
+<line stroke="black" x1="48" y1="6" x2="56" y2="6"></line>
+<line stroke="black" x1="56" y1="6" x2="64" y2="6"></line>
+<line stroke="black" x1="64" y1="6" x2="72" y2="6"></line>
+<line stroke="black" x1="72" y1="6" x2="80" y2="6"></line>
+<line stroke="black" x1="80" y1="6" x2="88" y2="6"></line>
+<line stroke="black" x1="88" y1="6" x2="96" y2="6"></line>
+<line stroke="black" x1="96" y1="6" x2="104" y2="6"></line>
+<line stroke="black" x1="104" y1="6" x2="112" y2="6"></line>
+<line stroke="black" x1="112" y1="6" x2="120" y2="6"></line>
+<line stroke="black" x1="120" y1="6" x2="128" y2="6"></line>
+<line stroke="black" x1="128" y1="6" x2="136" y2="6"></line>
+<line stroke="black" x1="136" y1="6" x2="144" y2="6"></line>
+<line stroke="black" x1="144" y1="6" x2="152" y2="6"></line>
+<line stroke="black" x1="152" y1="6" x2="160" y2="6"></line>
+<line stroke="black" x1="160" y1="6" x2="168" y2="6"></line>
+<line stroke="black" x1="168" y1="6" x2="176" y2="6"></line>
+<line stroke="black" x1="176" y1="6" x2="184" y2="6"></line>
+<line stroke="black" x1="184" y1="6" x2="192" y2="6"></line>
+<line stroke="black" x1="192" y1="6" x2="200" y2="6"></line>
+<line stroke="black" x1="200" y1="6" x2="208" y2="6"></line>
+<line stroke="black" x1="208" y1="6" x2="216" y2="6"></line>
+<line stroke="black" x1="216" y1="6" x2="224" y2="6"></line>
+<line stroke="black" x1="224" y1="6" x2="232" y2="6"></line>
+<line stroke="black" x1="232" y1="6" x2="240" y2="6"></line>
+<line stroke="black" x1="240" y1="6" x2="248" y2="6"></line>
+<line stroke="black" x1="248" y1="6" x2="256" y2="6"></line>
+<line stroke="black" x1="256" y1="6" x2="264" y2="6"></line>
+<line stroke="black" x1="264" y1="6" x2="272" y2="6"></line>
+<line stroke="black" x1="272" y1="6" x2="280" y2="6"></line>
+<line stroke="black" x1="280" y1="6" x2="288" y2="6"></line>
+<line stroke="black" x1="288" y1="6" x2="296" y2="6"></line>
+<line stroke="black" x1="296" y1="6" x2="304" y2="6"></line>
+<line stroke="black" x1="304" y1="6" x2="312" y2="6"></line>
+<line stroke="black" x1="312" y1="6" x2="320" y2="6"></line>
+<line stroke="black" x1="320" y1="6" x2="328" y2="6"></line>
+<line stroke="black" x1="328" y1="6" x2="336" y2="6"></line>
+<line stroke="black" x1="336" y1="6" x2="340" y2="6"></line>
+<line stroke="black" x1="340" y1="6" x2="340" y2="12"></line>
+<line stroke="black" x1="352" y1="6" x2="356" y2="12"></line>
+<line stroke="black" x1="4" y1="12" x2="4" y2="24"></line>
+<line stroke="black" x1="340" y1="12" x2="340" y2="24"></line>
+<line stroke="black" x1="356" y1="12" x2="356" y2="24"></line>
+<line stroke="black" x1="4" y1="24" x2="4" y2="36"></line>
+<line stroke="black" x1="340" y1="24" x2="340" y2="36"></line>
+<line stroke="black" x1="356" y1="24" x2="356" y2="36"></line>
+<line stroke="black" x1="4" y1="42" x2="8" y2="42"></line>
+<line stroke="black" x1="4" y1="36" x2="4" y2="48"></line>
+<line stroke="black" x1="8" y1="42" x2="16" y2="42"></line>
+<line stroke="black" x1="16" y1="42" x2="24" y2="42"></line>
+<line stroke="black" x1="24" y1="42" x2="32" y2="42"></line>
+<line stroke="black" x1="32" y1="42" x2="40" y2="42"></line>
+<line stroke="black" x1="40" y1="42" x2="48" y2="42"></line>
+<line stroke="black" x1="48" y1="42" x2="56" y2="42"></line>
+<line stroke="black" x1="56" y1="42" x2="64" y2="42"></line>
+<line stroke="black" x1="64" y1="42" x2="72" y2="42"></line>
+<line stroke="black" x1="72" y1="42" x2="80" y2="42"></line>
+<line stroke="black" x1="80" y1="42" x2="88" y2="42"></line>
+<line stroke="black" x1="88" y1="42" x2="96" y2="42"></line>
+<line stroke="black" x1="96" y1="42" x2="104" y2="42"></line>
+<line stroke="black" x1="104" y1="42" x2="112" y2="42"></line>
+<line stroke="black" x1="112" y1="42" x2="120" y2="42"></line>
+<line stroke="black" x1="120" y1="42" x2="128" y2="42"></line>
+<line stroke="black" x1="128" y1="42" x2="136" y2="42"></line>
+<line stroke="black" x1="136" y1="42" x2="144" y2="42"></line>
+<line stroke="black" x1="144" y1="42" x2="152" y2="42"></line>
+<line stroke="black" x1="152" y1="42" x2="160" y2="42"></line>
+<line stroke="black" x1="160" y1="42" x2="168" y2="42"></line>
+<line stroke="black" x1="168" y1="42" x2="176" y2="42"></line>
+<line stroke="black" x1="176" y1="42" x2="184" y2="42"></line>
+<line stroke="black" x1="184" y1="42" x2="192" y2="42"></line>
+<line stroke="black" x1="192" y1="42" x2="200" y2="42"></line>
+<line stroke="black" x1="200" y1="42" x2="208" y2="42"></line>
+<line stroke="black" x1="208" y1="42" x2="216" y2="42"></line>
+<line stroke="black" x1="216" y1="42" x2="224" y2="42"></line>
+<line stroke="black" x1="224" y1="42" x2="232" y2="42"></line>
+<line stroke="black" x1="232" y1="42" x2="240" y2="42"></line>
+<line stroke="black" x1="240" y1="42" x2="248" y2="42"></line>
+<line stroke="black" x1="248" y1="42" x2="256" y2="42"></line>
+<line stroke="black" x1="256" y1="42" x2="264" y2="42"></line>
+<line stroke="black" x1="264" y1="42" x2="272" y2="42"></line>
+<line stroke="black" x1="272" y1="42" x2="280" y2="42"></line>
+<line stroke="black" x1="280" y1="42" x2="288" y2="42"></line>
+<line stroke="black" x1="288" y1="42" x2="296" y2="42"></line>
+<line stroke="black" x1="296" y1="42" x2="304" y2="42"></line>
+<line stroke="black" x1="304" y1="42" x2="312" y2="42"></line>
+<line stroke="black" x1="312" y1="42" x2="320" y2="42"></line>
+<line stroke="black" x1="320" y1="42" x2="328" y2="42"></line>
+<line stroke="black" x1="328" y1="42" x2="336" y2="42"></line>
+<line stroke="black" x1="336" y1="42" x2="340" y2="42"></line>
+<line stroke="black" x1="340" y1="36" x2="340" y2="48"></line>
+<line stroke="black" x1="356" y1="36" x2="356" y2="48"></line>
+<line stroke="black" x1="4" y1="48" x2="4" y2="60"></line>
+<line stroke="black" x1="340" y1="48" x2="340" y2="60"></line>
+<line stroke="black" x1="356" y1="48" x2="356" y2="60"></line>
+<line stroke="black" x1="4" y1="60" x2="4" y2="72"></line>
+<line stroke="black" x1="340" y1="60" x2="340" y2="72"></line>
+<line stroke="black" x1="356" y1="60" x2="356" y2="72"></line>
+<line stroke="black" x1="4" y1="72" x2="4" y2="84"></line>
+<line stroke="black" x1="340" y1="72" x2="340" y2="84"></line>
+<line stroke="black" x1="356" y1="72" x2="356" y2="84"></line>
+<line stroke="black" x1="4" y1="90" x2="8" y2="90"></line>
+<line stroke="black" x1="4" y1="84" x2="4" y2="96"></line>
+<line stroke="black" x1="8" y1="90" x2="16" y2="90"></line>
+<line stroke="black" x1="16" y1="90" x2="24" y2="90"></line>
+<line stroke="black" x1="24" y1="90" x2="32" y2="90"></line>
+<line stroke="black" x1="32" y1="90" x2="40" y2="90"></line>
+<line stroke="black" x1="40" y1="90" x2="48" y2="90"></line>
+<line stroke="black" x1="48" y1="90" x2="56" y2="90"></line>
+<line stroke="black" x1="56" y1="90" x2="64" y2="90"></line>
+<line stroke="black" x1="64" y1="90" x2="72" y2="90"></line>
+<line stroke="black" x1="72" y1="90" x2="80" y2="90"></line>
+<line stroke="black" x1="80" y1="90" x2="88" y2="90"></line>
+<line stroke="black" x1="88" y1="90" x2="96" y2="90"></line>
+<line stroke="black" x1="96" y1="90" x2="104" y2="90"></line>
+<line stroke="black" x1="104" y1="90" x2="112" y2="90"></line>
+<line stroke="black" x1="112" y1="90" x2="120" y2="90"></line>
+<line stroke="black" x1="120" y1="90" x2="128" y2="90"></line>
+<line stroke="black" x1="128" y1="90" x2="136" y2="90"></line>
+<line stroke="black" x1="136" y1="90" x2="144" y2="90"></line>
+<line stroke="black" x1="144" y1="90" x2="152" y2="90"></line>
+<line stroke="black" x1="152" y1="90" x2="160" y2="90"></line>
+<line stroke="black" x1="160" y1="90" x2="168" y2="90"></line>
+<line stroke="black" x1="168" y1="90" x2="176" y2="90"></line>
+<line stroke="black" x1="176" y1="90" x2="184" y2="90"></line>
+<line stroke="black" x1="184" y1="90" x2="192" y2="90"></line>
+<line stroke="black" x1="192" y1="90" x2="200" y2="90"></line>
+<line stroke="black" x1="200" y1="90" x2="208" y2="90"></line>
+<line stroke="black" x1="208" y1="90" x2="216" y2="90"></line>
+<line stroke="black" x1="216" y1="90" x2="224" y2="90"></line>
+<line stroke="black" x1="224" y1="90" x2="232" y2="90"></line>
+<line stroke="black" x1="232" y1="90" x2="240" y2="90"></line>
+<line stroke="black" x1="240" y1="90" x2="248" y2="90"></line>
+<line stroke="black" x1="248" y1="90" x2="256" y2="90"></line>
+<line stroke="black" x1="256" y1="90" x2="264" y2="90"></line>
+<line stroke="black" x1="264" y1="90" x2="272" y2="90"></line>
+<line stroke="black" x1="272" y1="90" x2="280" y2="90"></line>
+<line stroke="black" x1="280" y1="90" x2="288" y2="90"></line>
+<line stroke="black" x1="288" y1="90" x2="296" y2="90"></line>
+<line stroke="black" x1="296" y1="90" x2="304" y2="90"></line>
+<line stroke="black" x1="304" y1="90" x2="312" y2="90"></line>
+<line stroke="black" x1="312" y1="90" x2="320" y2="90"></line>
+<line stroke="black" x1="320" y1="90" x2="328" y2="90"></line>
+<line stroke="black" x1="328" y1="90" x2="336" y2="90"></line>
+<line stroke="black" x1="336" y1="90" x2="340" y2="90"></line>
+<line stroke="black" x1="340" y1="84" x2="340" y2="96"></line>
+<line stroke="black" x1="352" y1="90" x2="356" y2="84"></line>
+<line stroke="black" x1="4" y1="96" x2="4" y2="108"></line>
+<line stroke="black" x1="340" y1="96" x2="340" y2="108"></line>
+<line stroke="black" x1="344" y1="102" x2="352" y2="102"></line>
+<line stroke="black" x1="344" y1="102" x2="352" y2="96"></line>
+<line stroke="black" x1="344" y1="102" x2="352" y2="108"></line>
+<line stroke="black" x1="352" y1="102" x2="360" y2="102"></line>
+<line stroke="black" x1="4" y1="114" x2="8" y2="114"></line>
+<line stroke="black" x1="4" y1="108" x2="4" y2="120"></line>
+<line stroke="black" x1="8" y1="114" x2="16" y2="114"></line>
+<line stroke="black" x1="16" y1="114" x2="24" y2="114"></line>
+<line stroke="black" x1="24" y1="114" x2="32" y2="114"></line>
+<line stroke="black" x1="32" y1="114" x2="40" y2="114"></line>
+<line stroke="black" x1="40" y1="114" x2="48" y2="114"></line>
+<line stroke="black" x1="48" y1="114" x2="56" y2="114"></line>
+<line stroke="black" x1="56" y1="114" x2="64" y2="114"></line>
+<line stroke="black" x1="64" y1="114" x2="72" y2="114"></line>
+<line stroke="black" x1="72" y1="114" x2="80" y2="114"></line>
+<line stroke="black" x1="80" y1="114" x2="88" y2="114"></line>
+<line stroke="black" x1="88" y1="114" x2="96" y2="114"></line>
+<line stroke="black" x1="96" y1="114" x2="104" y2="114"></line>
+<line stroke="black" x1="104" y1="114" x2="112" y2="114"></line>
+<line stroke="black" x1="112" y1="114" x2="120" y2="114"></line>
+<line stroke="black" x1="120" y1="114" x2="128" y2="114"></line>
+<line stroke="black" x1="128" y1="114" x2="136" y2="114"></line>
+<line stroke="black" x1="136" y1="114" x2="144" y2="114"></line>
+<line stroke="black" x1="144" y1="114" x2="152" y2="114"></line>
+<line stroke="black" x1="152" y1="114" x2="160" y2="114"></line>
+<line stroke="black" x1="160" y1="114" x2="168" y2="114"></line>
+<line stroke="black" x1="168" y1="114" x2="176" y2="114"></line>
+<line stroke="black" x1="176" y1="114" x2="184" y2="114"></line>
+<line stroke="black" x1="184" y1="114" x2="192" y2="114"></line>
+<line stroke="black" x1="192" y1="114" x2="200" y2="114"></line>
+<line stroke="black" x1="200" y1="114" x2="208" y2="114"></line>
+<line stroke="black" x1="208" y1="114" x2="216" y2="114"></line>
+<line stroke="black" x1="216" y1="114" x2="224" y2="114"></line>
+<line stroke="black" x1="224" y1="114" x2="232" y2="114"></line>
+<line stroke="black" x1="232" y1="114" x2="240" y2="114"></line>
+<line stroke="black" x1="240" y1="114" x2="248" y2="114"></line>
+<line stroke="black" x1="248" y1="114" x2="256" y2="114"></line>
+<line stroke="black" x1="256" y1="114" x2="264" y2="114"></line>
+<line stroke="black" x1="264" y1="114" x2="272" y2="114"></line>
+<line stroke="black" x1="272" y1="114" x2="280" y2="114"></line>
+<line stroke="black" x1="280" y1="114" x2="288" y2="114"></line>
+<line stroke="black" x1="288" y1="114" x2="296" y2="114"></line>
+<line stroke="black" x1="296" y1="114" x2="304" y2="114"></line>
+<line stroke="black" x1="304" y1="114" x2="312" y2="114"></line>
+<line stroke="black" x1="312" y1="114" x2="320" y2="114"></line>
+<line stroke="black" x1="320" y1="114" x2="328" y2="114"></line>
+<line stroke="black" x1="328" y1="114" x2="336" y2="114"></line>
+<line stroke="black" x1="336" y1="114" x2="340" y2="114"></line>
+<line stroke="black" x1="340" y1="108" x2="340" y2="120"></line>
+<line stroke="black" x1="4" y1="120" x2="4" y2="132"></line>
+<line stroke="black" x1="340" y1="120" x2="340" y2="132"></line>
+<line stroke="black" x1="4" y1="132" x2="4" y2="144"></line>
+<line stroke="black" x1="340" y1="132" x2="340" y2="144"></line>
+<line stroke="black" x1="4" y1="150" x2="8" y2="150"></line>
+<line stroke="black" x1="4" y1="150" x2="4" y2="144"></line>
+<line stroke="black" x1="8" y1="150" x2="16" y2="150"></line>
+<line stroke="black" x1="16" y1="150" x2="24" y2="150"></line>
+<line stroke="black" x1="24" y1="150" x2="32" y2="150"></line>
+<line stroke="black" x1="32" y1="150" x2="40" y2="150"></line>
+<line stroke="black" x1="40" y1="150" x2="48" y2="150"></line>
+<line stroke="black" x1="48" y1="150" x2="56" y2="150"></line>
+<line stroke="black" x1="56" y1="150" x2="64" y2="150"></line>
+<line stroke="black" x1="64" y1="150" x2="72" y2="150"></line>
+<line stroke="black" x1="72" y1="150" x2="80" y2="150"></line>
+<line stroke="black" x1="80" y1="150" x2="88" y2="150"></line>
+<line stroke="black" x1="88" y1="150" x2="96" y2="150"></line>
+<line stroke="black" x1="96" y1="150" x2="104" y2="150"></line>
+<line stroke="black" x1="104" y1="150" x2="112" y2="150"></line>
+<line stroke="black" x1="112" y1="150" x2="120" y2="150"></line>
+<line stroke="black" x1="120" y1="150" x2="128" y2="150"></line>
+<line stroke="black" x1="128" y1="150" x2="136" y2="150"></line>
+<line stroke="black" x1="136" y1="150" x2="144" y2="150"></line>
+<line stroke="black" x1="144" y1="150" x2="152" y2="150"></line>
+<line stroke="black" x1="152" y1="150" x2="160" y2="150"></line>
+<line stroke="black" x1="160" y1="150" x2="168" y2="150"></line>
+<line stroke="black" x1="168" y1="150" x2="176" y2="150"></line>
+<line stroke="black" x1="176" y1="150" x2="184" y2="150"></line>
+<line stroke="black" x1="184" y1="150" x2="192" y2="150"></line>
+<line stroke="black" x1="192" y1="150" x2="200" y2="150"></line>
+<line stroke="black" x1="200" y1="150" x2="208" y2="150"></line>
+<line stroke="black" x1="208" y1="150" x2="216" y2="150"></line>
+<line stroke="black" x1="216" y1="150" x2="224" y2="150"></line>
+<line stroke="black" x1="224" y1="150" x2="232" y2="150"></line>
+<line stroke="black" x1="232" y1="150" x2="240" y2="150"></line>
+<line stroke="black" x1="240" y1="150" x2="248" y2="150"></line>
+<line stroke="black" x1="248" y1="150" x2="256" y2="150"></line>
+<line stroke="black" x1="256" y1="150" x2="264" y2="150"></line>
+<line stroke="black" x1="264" y1="150" x2="272" y2="150"></line>
+<line stroke="black" x1="272" y1="150" x2="280" y2="150"></line>
+<line stroke="black" x1="280" y1="150" x2="288" y2="150"></line>
+<line stroke="black" x1="288" y1="150" x2="296" y2="150"></line>
+<line stroke="black" x1="296" y1="150" x2="304" y2="150"></line>
+<line stroke="black" x1="304" y1="150" x2="312" y2="150"></line>
+<line stroke="black" x1="312" y1="150" x2="320" y2="150"></line>
+<line stroke="black" x1="320" y1="150" x2="328" y2="150"></line>
+<line stroke="black" x1="328" y1="150" x2="336" y2="150"></line>
+<line stroke="black" x1="336" y1="150" x2="340" y2="150"></line>
+<line stroke="black" x1="340" y1="150" x2="340" y2="144"></line>
+<text x="88" y="18" dominant-baseline="middle"> Programas</text>
+<text x="168" y="18" dominant-baseline="middle"> de</text>
+<text x="192" y="18" dominant-baseline="middle"> usuarios</text>
+<text x="24" y="30" dominant-baseline="middle"> ofimática,</text>
+<text x="112" y="30" dominant-baseline="middle"> navegador</text>
+<text x="192" y="30" dominant-baseline="middle"> web,</text>
+<text x="232" y="30" dominant-baseline="middle"> juegos,</text>
+<text x="296" y="30" dominant-baseline="middle"> ...</text>
+<text x="368" y="42" dominant-baseline="middle"> modo</text>
+<text x="408" y="42" dominant-baseline="middle"> usuario</text>
+<text x="64" y="54" dominant-baseline="middle"> Herramientas</text>
+<text x="168" y="54" dominant-baseline="middle"> del</text>
+<text x="200" y="54" dominant-baseline="middle"> sistema</text>
+<text x="32" y="66" dominant-baseline="middle"> biblioteca</text>
+<text x="120" y="66" dominant-baseline="middle"> estándar,</text>
+<text x="200" y="66" dominant-baseline="middle"> linker,</text>
+<text x="264" y="66" dominant-baseline="middle"> shells,</text>
+<text x="72" y="78" dominant-baseline="middle"> servicios</text>
+<text x="152" y="78" dominant-baseline="middle"> (impresión,</text>
+<text x="248" y="78" dominant-baseline="middle"> ...)</text>
+<text x="128" y="102" dominant-baseline="middle"> OS</text>
+<text x="152" y="102" dominant-baseline="middle"> kernel</text>
+<text x="368" y="102" dominant-baseline="middle"> modo</text>
+<text x="408" y="102" dominant-baseline="middle"> supervisor</text>
+<text x="136" y="126" dominant-baseline="middle"> Hardware</text>
+<text x="24" y="138" dominant-baseline="middle"> CPUs,</text>
+<text x="72" y="138" dominant-baseline="middle"> Memoria</text>
+<text x="136" y="138" dominant-baseline="middle"> (RAM),</text>
+<text x="192" y="138" dominant-baseline="middle"> discos,</text>
+<text x="256" y="138" dominant-baseline="middle"> red,</text>
+<text x="296" y="138" dominant-baseline="middle"> ...</text>
+<style>text {font-size: 10pt; font-family: "monospace";}</style>
+
+<style>
+.hw {fill: crimson;}
+#k {fill: coral;}
+#s {fill: cornflowerblue;}
+#p {fill: cyan;}
+</style></svg>
