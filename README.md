@@ -49,4 +49,5 @@ Ouput of above diagram example:
 ## To do
 
 1. Recognize complete line paths to generate shorter svg
-2. Recognize shapes (as brackets)
+2. Support for unicode characters
+3. Recognize shapes (as brackets)
