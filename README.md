@@ -3,7 +3,7 @@ Javascript text (ascii) diagrams to svg
 
 It is a very simple (and limited) translator from ascii diagrams to svg.
 
-## Why another implmementation?
+## Why another implementation?
 
 There are many applications and libraries for doing this. None of them fulfill my needs. 
 I want a very simple (and efficient) javascript library for writing disgrams in my documents.
@@ -45,3 +45,8 @@ When using client-side (browser), then you can generate a DOM element (`<figure>
 Ouput of above diagram example:
 
 ![svg output](example.svg)
+
+## To do
+
+1. Recognize complete line paths to generate shorter svg
+2. Recognize shapes (as brackets)
