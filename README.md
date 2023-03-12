@@ -40,7 +40,7 @@ You can write your own styles belos of diagram as the next example (sorry, it is
 ## API
 
 Call `td2svg(d)` where `d` is a string containing the diagram text. It will return a string with the *svg* code.
-When using client-side (browser), then You can generate a DOM element (`<figure>`, for example) with the svg content inside.
+When using client-side (browser), then you can generate a DOM element (`<figure>`, for example) with the svg content inside.
 
 Ouput of above diagram example:
 
