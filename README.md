@@ -12,7 +12,7 @@ In particular, I need to write diagrams with text, boxes, lines and arrows.
 ## Features
 
 Each box (rectangle) can have an identifier or class, so you can add styles to them.
-You can write your own styles belos of diagram as the next example:
+You can write your own styles belos of diagram as the next example (sorry, it is in spanish):
 
 ```
 +-----------------------------------------+ \
