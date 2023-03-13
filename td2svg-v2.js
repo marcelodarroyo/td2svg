@@ -8,8 +8,8 @@ function diagram2svg(text) {
     const cw = 8, ch = 12;
     const ns = 'xmlns="http://www.w3.org/2000/svg"';
     const style = extractStyle();
-    let lines = text.split('\n');
-    const ids = extractIds();
+    let   lines = text.split('\n');
+    const shapes = genShapes();
     let width = 0;
 
     function rightOf(i, j) {
@@ -76,8 +76,6 @@ function diagram2svg(text) {
         return texts;
     }
 
-    // extract rectangle identifiers with rectangle position and size
-    // ids have to place in top-left corner of rectangle
     function genShapes() {
         let ids = [];
         let rule = /\|([#.]\S+)/g;
@@ -85,18 +83,22 @@ function diagram2svg(text) {
             let match;
             rule.lastIndex = 0;
             while ( match = rule.exec(lines[i]) ) {
-                let id = {
+                let box = {
                     id: match[1],
-                    line: i, 
-                    column: match.index + 1,
-                    rect: {x: match.index + 1, y: i-1}
+                    x: match.index,
+                    y: i - 1,
+                    w: 0,
+                    y: 0
                 };
-                let x2 = id.column + id.id.length, y2 = i + 1;
-                while (x2 < lines[i].length && !isTRC(i-1,x2)) x2++;
-                while (y2 < lines.length && !isBLC(y2, match.index)) y2++;
-                id.rect.w = x2 - id.rect.x + 1;
-                id.rect.h = y2 - id.rect.y;
-                ids.push(id);
+                let x2 = box.x;
+                while (x2 < lines[i].length && !isTRC(i, x2))
+                    x2++;
+                let y2 = box.y + 1;
+                while (y2 < lines.length && !isBLC(y2, match.index))
+                    y2++;
+                box.w = x2 - box.x + 1;
+                box.h = y2 - box.y + 1;
+                
             }
         }
         // replace identifiers by spaces
@@ -289,12 +291,11 @@ function diagram2svg(text) {
         return r;
     }
 
-    let svgLines = genLines();
     let svg = `<svg width="${(width+2)*cw}" height="${lines.length*ch}" ${ns}>\n`;
-    return svg + genBgRects() + svgLines + genTexts() + style + '</svg>\n';;
+    return svg + shapes + genLines() + genTexts() + style + '</svg>\n';;
 }
 
-/*
+
 const example = 
 `
   +------------+                   +------------+
@@ -312,4 +313,3 @@ const example =
 `;
 
 console.log( diagram2svg(example) );
-*/
