@@ -78,7 +78,7 @@ function diagram2svg(text) {
 
     // extract rectangle identifiers with rectangle position and size
     // ids have to place in top-left corner of rectangle
-    function genShapes() {
+    function extractIds() {
         let ids = [];
         let rule = /\|([#.]\S+)/g;
         for (let i = 0; i < lines.length; i++) {
