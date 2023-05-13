@@ -232,12 +232,12 @@ function diagram2svg(text) {
                     r += `${p}"${d}" fill="black" />\n`;
                     continue;
                 }
-                if (c == '\\' && isVertical(belowOf(i,j))) {
+                if (c == '\\' && leftOf(i,j) == ' ' && rightOf(i,j) == ' ') {
                     const d = `M ${x1},${ym} L ${xm},${y2}`;
                     r += `${p}"${d}" fill="none" />\n`;
                     continue;
                 }
-                if (c == '/' && isVertical(aboveOf(i,j))) {
+                if (c == '/' && leftOf(i,j) == ' ' && rightOf(i,j) == ' ') {
                     const d = `M ${x1},${ym} L ${xm},${y1}`;
                     r += `${p}"${d}" fill="none" />\n`;
                     continue;
