@@ -134,7 +134,7 @@ function diagram2svg(text) {
         const p = '<path stroke="black" d=';
 
         for (let i=0; i < lines.length; i++) {
-            let re = /[+><^v]/g;
+            let re = /[+><^v\\/]/g;
             let m; 
             while (m = re.exec(lines[i])) {
                 const j = m.index;
@@ -232,6 +232,16 @@ function diagram2svg(text) {
                     r += `${p}"${d}" fill="black" />\n`;
                     continue;
                 }
+                if (c == '\\' && isVertical(belowOf(i,j))) {
+                    const d = `M ${x1},${ym} L ${xm},${y2}`;
+                    r += `${p}"${d}" fill="none" />\n`;
+                    continue;
+                }
+                if (c == '/' && isVertical(aboveOf(i,j))) {
+                    const d = `M ${x1},${ym} L ${xm},${y1}`;
+                    r += `${p}"${d}" fill="none" />\n`;
+                    continue;
+                }
             }
         }
         return r;
@@ -294,19 +304,18 @@ function diagram2svg(text) {
     return svg + shapes + hl + vl + ca + texts + style + '</svg>\n';
 }
 
-/*
 const example1 = 
 `
         +-------
         |
         v
-  +------------+                   +------------+
-  |#a   r1     |<---------+------->|.b rect 2   |
-  +------------+          |        +------------+
-         ^                +------->|.b   r3     |
-         |                         +------------+
-         |                         |.b   r4     |
-                                   +------------+
+  +------------+                   +------------+ \\
+  |#a   r1     |<---------+------->|.b rect 2   | |
+  +------------+          |        +------------+ |
+         ^                +------->|.b   r3     | | blocks
+         |                         +------------+ |
+         |                         |.b   r4     | |
+                                   +------------+ /
 
 <style>
 #a {fill: azure;}
@@ -320,4 +329,3 @@ const example2 = `
 `;
 
 console.log( diagram2svg(example1) );
-*/

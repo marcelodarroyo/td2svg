@@ -34,7 +34,7 @@ You can write your own styles belos of diagram as the next example (sorry, it is
 #k {fill: coral;}
 #s {fill: cornflowerblue;}
 #p {fill: cyan;}
-</style>;
+</style>
 ```
 
 ## API
