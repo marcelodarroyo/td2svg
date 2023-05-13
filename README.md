@@ -18,7 +18,7 @@ You can write your own styles belos of diagram as the next example (sorry, it is
         +-------
         |
         v
-  +------------+                   +------------+ \\
+  +------------+                   +------------+ \
   |#a   r1     |<---------+------->|.b rect 2   | |
   +------------+          |        +------------+ |
          ^                +------->|.b   r3     | | blocks
