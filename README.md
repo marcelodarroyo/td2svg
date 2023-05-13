@@ -15,26 +15,22 @@ Each box (rectangle) can have an identifier or class, so you can add styles to t
 You can write your own styles belos of diagram as the next example (sorry, it is in spanish):
 
 ```
-+-----------------------------------------+ \
-|#p        Programas de usuarios          | |
-|  ofimática, navegador web, juegos, ...  | |
-+-----------------------------------------+ | modo usuario
-|#s     Herramientas del sistema          | |
-|   biblioteca estándar, linker, shells,  | |
-|        servicios (impresión, ...)       | |
-+-----------------------------------------+ /
-|#k             OS kernel                 |<- modo supervisor
-+-----------------------------------------+ 
-|.hw             Hardware                 |
-|  CPUs, Memoria (RAM), discos, red, ...  |
-+-----------------------------------------+
+        +-------
+        |
+        v
+  +------------+                   +------------+ \\
+  |#a   r1     |<---------+------->|.b rect 2   | |
+  +------------+          |        +------------+ |
+         ^                +------->|.b   r3     | | blocks
+         |                         +------------+ |
+         |                         |.b   r4     | |
+                                   +------------+ /
 
 <style>
-.hw {fill: crimson;}
-#k {fill: coral;}
-#s {fill: cornflowerblue;}
-#p {fill: cyan;}
+#a {fill: azure;}
+.b {fill: yellow;}
 </style>
+
 ```
 
 ## API

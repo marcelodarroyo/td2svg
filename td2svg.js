@@ -304,6 +304,7 @@ function diagram2svg(text) {
     return svg + shapes + hl + vl + ca + texts + style + '</svg>\n';
 }
 
+/*
 const example1 = 
 `
         +-------
@@ -329,3 +330,4 @@ const example2 = `
 `;
 
 console.log( diagram2svg(example1) );
+*/
