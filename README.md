@@ -22,7 +22,7 @@ them.  You can write your own styles below of diagram as in the next example:
   +------------+                   +------------+ \
   |#a   r1     |<---------+------->|.b rect 2   | |
   +------------+          |        +------------+ |
-         ^                +------->|.b   r3     | | blocks
+         ^                +------->|.b   r3     | :> blocks
          |                         +------------+ |
          |                         |.b   r4     | |
                                    +------------+ /

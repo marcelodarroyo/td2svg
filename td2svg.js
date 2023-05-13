@@ -217,9 +217,23 @@ function diagram2svg(text) {
                     r += `${p}"${d}" fill="black" />\n`;
                     continue;
                 }
+                if (c == '>' && left == ':') {
+                    // right bracket middle arrow (:>)
+                    const x = x1 - cw/2;
+                    const d = `M ${x},${y1} L ${x1},${ym} L ${x},${y2}`;
+                    r += `${p}"${d}" fill="none" />\n`;
+                    continue;
+                }
                 if (c == '<' && right == '-') {
                     const d = `M ${x2},${ym} L ${x2-2},${ym} M ${x2-2},${y1+2} L ${x1-3},${ym} L ${x2-2},${y2-2} Z`;
                     r += `${p}"${d}" fill="black" />\n`;
+                    continue;
+                }
+                if (c == '<' && right == ':') {
+                    // left bracket middle angle (<:)
+                    const x = x2 + cw/2;
+                    const d = `M ${x},${y1} L ${x2},${ym} L ${x},${y2}`;
+                    r += `${p}"${d}" fill="none" />\n`;
                     continue;
                 }
                 if (c == '^' && isVertical(below)) {
@@ -313,7 +327,7 @@ const example1 =
   +------------+                   +------------+ \\
   |#a   r1     |<---------+------->|.b rect 2   | |
   +------------+          |        +------------+ |
-         ^                +------->|.b   r3     | | blocks
+         ^                +------->|.b   r3     | :> blocks
          |                         +------------+ |
          |                         |.b   r4     | |
                                    +------------+ /
