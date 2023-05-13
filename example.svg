@@ -41,7 +41,7 @@
 <text x="287" y="114" dominant-baseline="middle" font-size="12px" font-family="monospace">r4</text>
 
 <style>
-#a {fill: azure;}
+#a {rx: "2.5"; fill: azure;}
 .b {fill: yellow;}
 </style>
 </svg>
