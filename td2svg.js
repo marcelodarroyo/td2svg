@@ -1,7 +1,15 @@
 //=============================================================================
 // Simple text (ascii) diagrams to svg
 // Author: Marcelo Arroyo (marcelo.arroyo@gmail.com)
-// Date: 2023
+// Creation year: 2023
+// How it works:
+//   1. Extract style
+//   2. Convert text into an array of strings (diagram lines)
+//   3. Generate shapes (rectangles for now) with id or class
+//   4. Generate horizontal lines (not overlaping with shapes)
+//   5. Generate vertical lines (not overlaping with shapes)
+//   6. Generate cross ('+') and arrows (<,>,^,v)
+//   7. Generate texts
 //=============================================================================
 
 function diagram2svg(text) {
