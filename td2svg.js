@@ -256,6 +256,16 @@ function diagram2svg(text) {
                     r += `${p}"${d}" fill="none" />\n`;
                     continue;
                 }
+                if (c == '\\' && rightOf(i,j) == '-' && leftOf(i,j) == ' ') {
+                    const d = `M ${xm},${y1} L ${x2},${ym}`;
+                    r += `${p}"${d}" fill="none" />\n`;
+                    continue;
+                }
+                if (c == '/' && leftOf(i,j) == '-' && rightOf(i,j) == ' ') {
+                    const d = `M ${x1},${ym} L ${xm},${y1}`;
+                    r += `${p}"${d}" fill="none" />\n`;
+                    continue;
+                }
             }
         }
         return r;
