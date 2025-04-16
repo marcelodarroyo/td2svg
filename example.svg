@@ -1,50 +1,60 @@
-<svg width="427" height="144" viewBox="0 0 427 144" xmlns="http://www.w3.org/2000/svg">
-<rect stroke="black" id="a"  x="17.5" y="54" width="91" height="24"/>
-<rect stroke="black" class="b"  x="248.5" y="54" width="91" height="24"/>
-<rect stroke="black" class="b"  x="248.5" y="78" width="91" height="24"/>
-<rect stroke="black" class="b"  x="248.5" y="102" width="91" height="24"/>
-<line stroke="black" x1="63" y1="18" x2="112" y2="18"/>
-<line stroke="black" x1="119" y1="66" x2="182" y2="66"/>
-<line stroke="black" x1="189" y1="66" x2="238" y2="66"/>
-<line stroke="black" x1="189" y1="90" x2="238" y2="90"/>
-<line stroke="black" x1="59.5" y1="24" x2="59.5" y2="36"/>
-<line stroke="black" x1="66.5" y1="96" x2="66.5" y2="120"/>
-<line stroke="black" x1="185.5" y1="72" x2="185.5" y2="84"/>
-<line stroke="black" x1="353.5" y1="60" x2="353.5" y2="84"/>
-<line stroke="black" x1="353.5" y1="96" x2="353.5" y2="120"/>
-<path stroke="black" d="M 59.5,24 V 18 H 63" fill="none" />
-<path stroke="black" d="M 59.5,36 L 59.5,39 M 56,39 L 63,39 L 59.5,51 Z" fill="black" />
-<path stroke="black" d="M 17.5,60 V 54 H 21" fill="none" />
-<path stroke="black" d="M 105,54 H 108.5 V 60" fill="none" />
-<path stroke="black" d="M 248.5,60 V 54 H 252" fill="none" />
-<path stroke="black" d="M 336,54 H 339.5 V 60" fill="none" />
-<path stroke="black" d="M 350,54 L 353.5,60" fill="none" />
-<path stroke="black" d="M 119,66 L 117,66 M 117,62 L 109,66 L 117,70 Z" fill="black" />
-<path stroke="black" d="M 182,66 H 189 M 185.5,66 V 72" />
-<path stroke="black" d="M 238,66 L 240,66 M 240,62 L 248,66 L 240,70 Z" fill="black" />
-<path stroke="black" d="M 17.5,72 V 78 H 21" fill="none" />
-<path stroke="black" d="M 105,78 H 108.5 V 72" fill="none" />
-<path stroke="black" d="M 248.5,78 H 252 M 248.5,72 V 84" />
-<path stroke="black" d="M 336,78 H 339.5 M 339.5,72 V 84" />
-<path stroke="black" d="M 66.5,96 L 66.5,93 M 63,93 L 66.5,81 L 70,93 Z" fill="black" />
-<path stroke="black" d="M 185.5,84 V 90 H 189" fill="none" />
-<path stroke="black" d="M 238,90 L 240,90 M 240,86 L 248,90 L 240,94 Z" fill="black" />
-<path stroke="black" d="M 353.5,84 L 357,90 L 353.5,96" fill="none" />
-<path stroke="black" d="M 248.5,102 H 252 M 248.5,96 V 108" />
-<path stroke="black" d="M 336,102 H 339.5 M 339.5,96 V 108" />
-<path stroke="black" d="M 248.5,120 V 126 H 252" fill="none" />
-<path stroke="black" d="M 336,126 H 339.5 V 120" fill="none" />
-<path stroke="black" d="M 350,126 L 353.5,120" fill="none" />
-<text x="56" y="66" dominant-baseline="middle" font-size="12px" font-family="monospace">r1</text>
-<text x="273" y="66" dominant-baseline="middle" font-size="12px" font-family="monospace">rect</text>
-<text x="308" y="66" dominant-baseline="middle" font-size="12px" font-family="monospace">2</text>
-<text x="287" y="90" dominant-baseline="middle" font-size="12px" font-family="monospace">r3</text>
-<text x="371" y="90" dominant-baseline="middle" font-size="12px" font-family="monospace">blocks</text>
-<text x="287" y="114" dominant-baseline="middle" font-size="12px" font-family="monospace">r4</text>
+<svg width="399" height="264" viewBox="0 0 399 264" xmlns="http://www.w3.org/2000/svg">
+<rect id="rect-1" class="vm" stroke="black" fill="none" x="17.5" y="18" width="161" height="84"></rect>
+<rect id="rect-2" class="vm" stroke="black" fill="none" x="213.5" y="18" width="161" height="84"></rect>
+<rect id="rect-3" class="rect" stroke="black" fill="none" x="38.5" y="42" width="119" height="24"></rect>
+<rect id="rect-4" class="rect" stroke="black" fill="none" x="234.5" y="42" width="119" height="24"></rect>
+<rect id="rect-5" class="rect" stroke="black" fill="none" x="38.5" y="66" width="119" height="24"></rect>
+<rect id="rect-6" class="rect" stroke="black" fill="none" x="234.5" y="66" width="119" height="24"></rect>
+<rect id="rect-7" class="hw" stroke="black" fill="none" x="17.5" y="102" width="161" height="24"></rect>
+<rect id="rect-8" class="hw" stroke="black" fill="none" x="213.5" y="102" width="161" height="24"></rect>
+<rect id="hv" class="rect" stroke="black" fill="none" x="17.5" y="174" width="357" height="24"></rect>
+<rect id="rect-9" class="hw" stroke="black" fill="none" x="17.5" y="198" width="357" height="24"></rect>
+<line stroke="black" x1="73.5" y1="144" x2="73.5" y2="156"/>
+<line stroke="black" x1="255.5" y1="144" x2="255.5" y2="156"/>
+<path stroke="black" d="M 73.5,144 L 73.5,132 M 73.5,132 L 70,141 M 73.5,132 L 77,141" fill="none" />
+<path stroke="black" d="M 255.5,144 L 255.5,132 M 255.5,132 L 252,141 M 255.5,132 L 259,141" fill="none" />
+<path stroke="black" d="M 73.5,156 L 73.5,168 M 70,159 L 73.5,168 M 77,159 L 73.5,168" fill="none" />
+<path stroke="black" d="M 255.5,156 L 255.5,168 M 252,159 L 255.5,168 M 259,159 L 255.5,168" fill="none" />
+<text x="63" y="36" font-size="12px" font-family="monospace">OS</text>
+<text x="84" y="36" font-size="12px" font-family="monospace">guest</text>
+<text x="126" y="36" font-size="12px" font-family="monospace">1</text>
+<text x="259" y="36" font-size="12px" font-family="monospace">OS</text>
+<text x="280" y="36" font-size="12px" font-family="monospace">guest</text>
+<text x="322" y="36" font-size="12px" font-family="monospace">2</text>
+<text x="49" y="60" font-size="12px" font-family="monospace">user</text>
+<text x="84" y="60" font-size="12px" font-family="monospace">processes</text>
+<text x="245" y="60" font-size="12px" font-family="monospace">user</text>
+<text x="280" y="60" font-size="12px" font-family="monospace">processes</text>
+<text x="63" y="84" font-size="12px" font-family="monospace">guest</text>
+<text x="105" y="84" font-size="12px" font-family="monospace">OS</text>
+<text x="266" y="84" font-size="12px" font-family="monospace">guest</text>
+<text x="308" y="84" font-size="12px" font-family="monospace">OS</text>
+<text x="56" y="120" font-size="12px" font-family="monospace">virtual</text>
+<text x="112" y="120" font-size="12px" font-family="monospace">hardw.</text>
+<text x="252" y="120" font-size="12px" font-family="monospace">virtual</text>
+<text x="308" y="120" font-size="12px" font-family="monospace">hard.</text>
+<text x="84" y="144" font-size="12px" font-family="monospace">enter</text>
+<text x="266" y="144" font-size="12px" font-family="monospace">enter</text>
+<text x="49" y="156" font-size="12px" font-family="monospace">VM</text>
+<text x="231" y="156" font-size="12px" font-family="monospace">VM</text>
+<text x="84" y="168" font-size="12px" font-family="monospace">exit</text>
+<text x="266" y="168" font-size="12px" font-family="monospace">exit</text>
+<text x="161" y="192" font-size="12px" font-family="monospace">Hypervisor</text>
+<text x="168" y="216" font-size="12px" font-family="monospace">Hardware</text>
 
-<style>
-#a {fill: azure;}
-.b {fill: yellow;}
-</style>
+  <style>
+  .vm {
+    fill: lightgreen; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  }
+  #hv {
+    fill: salmon;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  }
+  .hw {
+    fill: orangered;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  }
+  rect {fill: AliceBlue;}
+  </style>
 </svg>
-
