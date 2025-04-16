@@ -5,7 +5,7 @@ This simple javascript code has no dependencies and it cab be used in node.js or
 This script is used in the docsify-td2svg plugin.
 
 The main feature and difference with other tools is you can add identifiers or classes to boxed for styling.
-Yo can write the `<style>` tag at the end of the diagram.
+Yo can put the `<style>` tag at the end of the diagram. It will be included in the resulting svg.
 
 ## Why another implementation?
 
@@ -56,6 +56,9 @@ You can write your own styles below of diagram as in the next example:
   rect {fill: AliceBlue;}
   </style>
 ```
+
+In the above example, the hardware box has the `hv` (hypervisor) identifier.
+Other rectangles have a class name.
 
 ## API
 
