@@ -1,7 +1,11 @@
-# td2svg
-Javascript text (ascii) diagrams to svg
+# td2svg: Javascript text (ascii) diagrams to svg.
 
-It is a very simple (and limited) translator from ascii diagrams to svg.
+It is a simple (and limited) translator from ascii diagrams to svg.
+This simple javascript code has no dependencies and it cab be used in node.js or in a browser.
+This script is used in the docsify-td2svg plugin.
+
+The main feature and difference with other tools is you can add identifiers or classes to boxed for styling.
+Yo can write the `<style>` tag at the end of the diagram.
 
 ## Why another implementation?
 
@@ -17,22 +21,40 @@ It enable us to adding styles to them.
 You can write your own styles below of diagram as in the next example:
 
 ```
-        +-------
-        |
-        v
-  +------------+                   +------------+ \
-  |#a   r1     |<---------+------->|.b rect 2   | |
-  +------------+          |        +------------+ |
-         ^                +------->|.b   r3     | :> blocks
-         |                         +------------+ |
-         |                         |.b   r4     | |
-                                   +------------+ /
+  +----------------------+    +----------------------+
+  |.vm   OS guest 1      |    |.vm   OS guest 2      |
+  |  +----------------+  |    |  +----------------+  |
+  |  | user processes |  |    |  | user processes |  |
+  |  +----------------+  |    |  +----------------+  |
+  |  |   guest OS     |  |    |  |    guest OS    |  |
+  |  +----------------+  |    |  +----------------+  |
+  +----------------------+    +----------------------+
+  |.hw  virtual hardw.   |    |.hw  virtual hard.    |
+  +----------------------+    +----------------------+
+          ^ enter                   ^ enter
+       VM |                      VM |
+          v exit                    v exit
+  +--------------------------------------------------+
+  |#hv                 Hypervisor                    | 
+  +--------------------------------------------------+
+  |.hw                  Hardware                     |
+  +--------------------------------------------------+
 
-<style>
-#a {fill: azure;}
-.b {fill: yellow;}
-</style>
-
+  <style>
+  .vm {
+    fill: lightgreen; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  }
+  #hv {
+    fill: salmon;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  }
+  .hw {
+    fill: orangered;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  }
+  rect {fill: AliceBlue;}
+  </style>
 ```
 
 ## API
